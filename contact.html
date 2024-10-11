@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <meta charset="UTF-8">
+       <meta name="viewpoint" content="width=device-width, initial-scale= 1.0">
+       <title>Add to Cart</title>
+       <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+<div class="header">
+        <div class="container">
+            <div class="navbar">
+            <div class="logo">
+               <a href="index.html"> <img src="Proud.webp" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html"><b>Home</b></a></li>
+                    <li><a href="Products.html"><b>Products</b></a></li>
+                    <li><a href="About.html"><b>About</b></a></li>
+                    <li><a href="contact.html"><b>Contact</b></a></li>
+                    <li><a href="Account.html"><b>Account</b></a></li>
+                </ul>
+            </nav>
+            <a href="Cart.html"><img src="Cart.png" width="30px" height="30px"></a>
+            <img src="Menu.webp" class="menu-icon" onclick="menutoggle()">
+        </div>
+
+        
+        
+            <!--------contact-section-------->
+            <section class="contact-section">
+                <div class="container">
+                    <h2>Get in Touch With Us</h2>
+                    <p>We would love to hear from you! Whether you have questions about our products, assistance with your orders or you just want to share your feedback, feel free to contact us using the information below</p>
+                    
+        
+                    <h3>Contact Information</h3>
+                    <ul class="contact-info">
+                        <li><strong>Phone:</strong>0787654321</li>
+                        <li><strong>Email Address:</strong>ProudBeauty123@gmail.com></li>
+
+                    </ul>
+        
+                    
+                </div>
+            </section>
+        
+            
+
+
+
+
+
+<!--------Footer-------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android</p>
+                <div class="app-logo">
+                    <img src="playstore.png" width="130px" height="50px">
+                </div>
+            </div>
+
+            <div class="footer-col-2">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Posts</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+
+            <div class="footer-col-3">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Thread</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <hr>
+        <p class="Copyright"> Copyright 2024 - Proud Beauty. All Rights Preserved</p>
+    </div>
+</div>
+<!--------js for toggle menu-------->
+   <script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight="0px";
+    function menutoggle(){
+        if( MenuItems.style.maxHeight=="0px")
+    {
+         MenuItems.style.maxHeight="200px"
+    }
+    else
+    {
+         MenuItems.style.maxHeight="0px"
+    }
+    }
+   </script>
+
+   
+
+    </body>
+</html>

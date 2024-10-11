@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <meta charset="UTF-8">
+       <meta name="viewpoint" content="width=device-width, initial-scale= 1.0">
+       <title>Add to Cart</title>
+       <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+<div class="header">
+        <div class="container">
+            <div class="navbar">
+            <div class="logo">
+               <a href="index.html"> <img src="Proud.webp" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html"><b>Home</b></a></li>
+                    <li><a href="Products.html"><b>Products</b></a></li>
+                    <li><a href="About.html"><b>About</b></a></li>
+                    <li><a href="contact.html"><b>Contact</b></a></li>
+                    <li><a href="Account.html"><b>Account</b></a></li>
+                </ul>
+            </nav>
+            <a href="Cart.html"><img src="Cart.png" width="30px" height="30px"></a>
+            <img src="Menu.webp" class="menu-icon" onclick="menutoggle()">
+        </div>
+
+        
+        
+            <!--------about-section-------->
+            <section class="about-section">
+                <div class="container">
+                    <h2>About Us</h2>
+                    <p>At <strong>Proud Beauty</strong>, we believe in empowering you to feel confident and beautiful in your own skin. Our mission has always been to provide high-quality beauty products and services that cater to all skin types, tones, and textures.</p>
+                    
+                    <h3>Our Philosophy</h3>
+                    <p>Beauty is more than skin deep, and we are committed to offering products that nourish not only your outer beauty but also promote self-love and well-being. We carefully curate a wide range of products from trusted brands that align with our values of sustainability, cruelty-free testing, and ethically sourced ingredients.</p>
+        
+                    <h3>Our Products</h3>
+                    <ul>
+                        <li>Skincare: Hydrating serums, moisturizers, masks, and more.</li>
+                        <li>Makeup: Foundations, lipsticks, eyeshadows for every look.</li>
+                        <li>Hair Care: Shampoos, conditioners, and treatments.</li>
+                        <li>Fragrances: Perfumes and colognes to suit every preference.</li>
+                        <li>Beauty Tools: Brushes, applicators, and skincare tools.</li>
+                    </ul>
+        
+                    <h3>Our Commitment to Sustainability</h3>
+                    <p>We strive to minimize our ecological footprint by prioritizing brands that use recyclable packaging, eco-friendly ingredients, and sustainable production methods.</p>
+        
+                    <h3>Why Choose Us?</h3>
+                    <ul>
+                        <li>Quality Assurance: Trusted, high-quality beauty products.</li>
+                        <li>Personalized Service: Tailored recommendations from beauty experts.</li>
+                        <li>Inclusive Beauty: Products for a diverse range of skin tones and hair textures.</li>
+                    </ul>
+        
+                    <p>Visit us online or in-store for a personalized shopping experience.</p>
+                </div>
+            </section>
+        
+            
+
+
+
+
+
+<!--------Footer-------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android</p>
+                <div class="app-logo">
+                    <img src="playstore.png" width="130px" height="50px">
+                </div>
+            </div>
+
+            <div class="footer-col-2">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Posts</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+
+            <div class="footer-col-3">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Thread</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <hr>
+        <p class="Copyright"> Copyright 2024 - Proud Beauty. All Rights Preserved</p>
+    </div>
+</div>
+<!--------js for toggle menu-------->
+   <script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight="0px";
+    function menutoggle(){
+        if( MenuItems.style.maxHeight=="0px")
+    {
+         MenuItems.style.maxHeight="200px"
+    }
+    else
+    {
+         MenuItems.style.maxHeight="0px"
+    }
+    }
+   </script>
+
+   
+
+    </body>
+</html>
